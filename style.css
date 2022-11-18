@@ -1,6 +1,25 @@
 @charset "UTF-8";
 /* CSS Document */
 
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+::-webkit-scrollbar-thumb {
+  background: lightpink; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: yellowgreen; 
+}
+body {
+  overflow-y: scroll; 
+}
+
 #title{
     margin-left: 20%; 
     padding-left:-5%;
